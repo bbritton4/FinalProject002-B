@@ -221,6 +221,7 @@ footer ul {
     width: 100%;
     height: fit-content;
     border-radius: .5rem;
+    align-self: center;
 }
 
 
