@@ -1,0 +1,328 @@
+body {
+    background: #FDFDFD;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+
+/* Navigation
+--------------------------------------------------------- */
+
+nav {
+    background: #B45335;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+ul li {
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+/* Hero section
+--------------------------------------------------------- */
+
+.hero {
+    background: url("../Images/Hero-Desktop.png");
+    background-position: center center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #FFF5F2;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+
+a {
+    /* I don't know why it wouldn't work endless I set size for each side */
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #B49335;
+    border-radius: 8px;
+    margin-top: 24px;
+    text-decoration: none;
+    color: #FDFDFD;
+}
+
+.hero div {
+    margin: 1rem;
+    text-align: center;
+}
+
+
+/* Our favorites section 
+( Add btn that links to "Recipe page" )
+--------------------------------------------------------- */
+
+.favorites {
+    background: #FFF5F2;
+    padding: 0rem;
+    padding-bottom: 3rem;
+    justify-content: center;
+} 
+
+#sectionhead {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    color: #B45335;
+}
+
+#pagehead {
+    text-align: center;
+    font-size: 3rem;
+    color: #B45335;
+    margin-bottom: 0px;
+}
+
+
+.gridhome {
+    display: grid;
+    gap: 1rem;
+}
+
+.previewCard {
+    background: #FDFDFD;
+    border-radius: 8px;
+    max-height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.previewCard img {
+    width: 100%;
+    height: auto;
+    border-radius: .5rem;
+}
+
+.previewCard p {
+    padding-left: 1rem;
+    color: #B45335;
+}
+
+
+
+
+/* Start section
+--------------------------------------------------------- */
+.flex {
+    display: flex;
+    padding: 1rem; 
+    flex-direction: column;
+    justify-self: center;
+    margin-top: 1rem;
+}
+
+.flex img {
+    width: 100%;
+}
+
+#flexbtn {
+    text-align: center;
+}
+
+
+#flextext {
+    color: #B45335;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.flexdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: #FFF5F2;
+}
+
+
+/* Awards section 
+--------------------------------------------------------- */
+.awards ul {
+    list-style: none;
+    display: grid;
+    gap: 1rem;
+    padding: 3rem;
+}
+
+.awards ul li {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* Footer
+--------------------------------------------------------- */
+footer {
+    background: #B45335;
+    height: 10rem;
+}
+
+
+/* About Page
+---------------------------------------------------------
+--------------------------------------------------------- */
+
+.aboutflex {
+    display: flex;
+    padding: 1rem; 
+    flex-direction: column;
+    justify-self: center;
+}
+
+.aboutflex img {
+    width: 100%;
+    border-radius: .5rem;
+}
+
+
+.aboutflex div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
+#logo {
+    width: 48px;
+    height: 48px;
+    margin-top: 1rem;
+    align-self: center;
+}
+
+.aboutflex p {
+    color: #57483A;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+/*tablet*/
+@media screen and (min-width: 820px) {
+
+    .flex {
+        flex-direction: row;
+        padding: 4rem; 
+        margin-top: auto;
+    }
+
+    .flex img {
+        width: 50%;
+    }
+
+    .flexdiv {
+        padding: 3rem;
+    }
+
+    #flexbtn {
+        text-align: left;
+    }
+    
+    .gridhome {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 3rem;
+    }
+
+    .favorites {
+        padding: 1rem;
+        padding-bottom: 3rem;
+    }
+
+    .awards ul {
+        grid-template-columns: repeat(3, 1fr);   
+    }
+
+    .aboutflex {
+        flex-direction: row;
+        padding: 4rem; 
+    }
+
+    .aboutflex img {
+        width: 50%;
+    }
+
+    .aboutflex div {
+        padding: 3rem;
+    }
+
+}
+
+
+/*Desktop*/ 
+@media screen and (min-width: 1200px) {
+
+    .container {
+        padding: 0;
+    }
+
+    .flex img {
+        width: 60%;
+    }
+
+    #flextext {
+        font-size: 1.5rem;
+    }
+
+    .gridhome {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+    }
+
+    .awards ul {
+        grid-template-columns: repeat(3, 1fr);   
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .favorites {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    } 
+
+    .aboutflex img {
+        width: 70%;
+    }
+
+
+
+
+}
