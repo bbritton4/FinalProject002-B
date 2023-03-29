@@ -88,7 +88,7 @@ a {
     justify-content: center;
 } 
 
-#sectionhead {
+.sectionhead {
     text-align: center;
     padding-bottom: 1rem;
     font-size: 2rem;
@@ -187,9 +187,23 @@ a {
 --------------------------------------------------------- */
 footer {
     background: #B45335;
-    height: 10rem;
+    height: 200px;
 }
 
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    justify-content: center;
+}
+
+#copywrite {
+    color: #FFF5F2;
+    text-align: center;
+}
 
 /* About Page
 ---------------------------------------------------------
