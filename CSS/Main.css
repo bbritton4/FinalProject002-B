@@ -45,7 +45,7 @@ nav ul {
     background: url("../Images/Hero-Desktop.png");
     background-position: center center;
     background-size: cover;
-    height: 500px;
+    height: 550px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,6 +100,7 @@ a {
     font-size: 3rem;
     color: #B45335;
     margin-bottom: 0px;
+    margin-top: 20px;
 }
 
 
@@ -218,6 +219,7 @@ footer ul {
 
 .aboutflex img {
     width: 100%;
+    height: fit-content;
     border-radius: .5rem;
 }
 
@@ -294,6 +296,10 @@ footer ul {
 
     .aboutflex div {
         padding: 3rem;
+    }
+
+    #pagehead {
+        margin-top: 40px;
     }
 
 }
