@@ -12,6 +12,12 @@ body {
 /* Navigation
 --------------------------------------------------------- */
 
+header {
+    background: #B45335;
+    margin: 0;
+    padding: 1rem;
+}
+
 nav {
     background: #B45335;
     padding: 0;
@@ -20,15 +26,37 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: right;
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    right: -50%;
+    top: 0;
+    transition: all .25s ease;
 }
 
-ul li {
-    text-decoration: none;
+
+nav.open {
+    right: 0;
+    transition: all .25s ease;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 nav ul li {
-    display: inline-block;
-    margin-right: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    /* display: inline-block; */
+    /* margin-right: 2rem; */
+}
+
+nav ul li a {
+    display: block;
+    margin: 0;
+    text-align: center;
 }
 
 
@@ -308,6 +336,28 @@ footer ul {
 
 /*Desktop*/ 
 @media screen and (min-width: 1200px) {
+    header p {
+        display: none;
+    }
+
+    nav {
+        /* position: fixed;
+        width: 100%;
+        height: auto; */
+        width: 100%;
+        position: static;   
+    }
+
+    nav  ul {
+        flex-direction: row;
+    }
+
+    nav ul li a {
+        background: none;
+        padding: 0;
+    }
+
+
 
     .container {
         padding: 0;
