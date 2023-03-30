@@ -82,6 +82,7 @@ nav ul {
 h1 {
     color: #FFF5F2;
     font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
     margin-bottom: 3rem;
 }
 
@@ -97,6 +98,7 @@ a {
     margin-top: 24px;
     text-decoration: none;
     color: #FDFDFD;
+    font-family: 'Nunito', sans-serif;
 }
 
 .hero div {
@@ -118,14 +120,17 @@ a {
 
 .sectionhead {
     text-align: center;
-    padding-bottom: 1rem;
+    padding: 2rem;
+    margin: 0px;
     font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
     color: #B45335;
 }
 
 #pagehead {
     text-align: center;
     font-size: 3rem;
+    font-family: 'Nunito', sans-serif;
     color: #B45335;
     margin-bottom: 0px;
     margin-top: 20px;
@@ -153,6 +158,7 @@ a {
 
 .previewCard p {
     padding-left: 1rem;
+    font-family: 'Nunito', sans-serif;
     color: #B45335;
 }
 
@@ -181,6 +187,7 @@ a {
 #flextext {
     color: #B45335;
     font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
     margin-bottom: 2rem;
 }
 
@@ -232,6 +239,8 @@ footer ul {
 #copywrite {
     color: #FFF5F2;
     text-align: center;
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
 }
 
 /* About Page
@@ -270,6 +279,7 @@ footer ul {
 .aboutflex p {
     color: #57483A;
     font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
 }
 
 
@@ -336,6 +346,11 @@ footer ul {
 
 /*Desktop*/ 
 @media screen and (min-width: 1200px) {
+
+    header {
+        padding: 0px;
+    }
+
     header p {
         display: none;
     }
@@ -345,6 +360,7 @@ footer ul {
         width: 100%;
         height: auto; */
         width: 100%;
+        height: 68px;
         position: static;   
     }
 
