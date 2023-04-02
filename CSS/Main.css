@@ -66,6 +66,9 @@ nav ul {
     padding: 0;
 }
 
+nav img {
+    display: none;
+}
 
 /* Hero section
 --------------------------------------------------------- */
@@ -100,6 +103,10 @@ a {
     text-decoration: none;
     color: #FDFDFD;
     font-family: 'Nunito', sans-serif;
+}
+
+a:hover {
+    background: #B28C1F;
 }
 
 .hero div {
@@ -375,6 +382,20 @@ footer ul {
         background: none;
         padding-left: 2rem;
         padding-right: 2rem;
+    }
+
+    nav ul li a:hover {
+        background: #B14A2A;
+        border-radius: .5rem;
+    }
+
+
+    nav img {
+        display: block;
+        height: 48px;
+        width: 48px;
+        padding-left: 2rem;
+        align-self: center;
     }
 
 
