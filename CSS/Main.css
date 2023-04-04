@@ -106,7 +106,7 @@ a {
 }
 
 a:hover {
-    background: #B28C1F;
+    background: #B08815;
 }
 
 .hero div {
@@ -185,6 +185,7 @@ a:hover {
 
 .flex img {
     width: 100%;
+    border-radius: 1rem 1rem 0 0;
 }
 
 #flexbtn {
@@ -208,6 +209,7 @@ a:hover {
     padding-top: 2rem;
     padding-bottom: 2rem;
     background: #FFF5F2;
+    border-radius: 0 0 1rem 1rem;
 }
 
 
@@ -308,10 +310,12 @@ footer ul {
 
     .flex img {
         width: 50%;
+        border-radius: 1rem 0 0 1rem;
     }
 
     .flexdiv {
         padding: 3rem;
+        border-radius: 0 1rem 1rem 0;
     }
 
     #flexbtn {
