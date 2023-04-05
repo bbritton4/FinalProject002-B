@@ -334,6 +334,9 @@ footer ul {
  }
 
  #contactright {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
     padding: 2.5rem;
     width: 100%;
  }
@@ -352,9 +355,15 @@ footer ul {
     padding-bottom: 1rem;
  }
 
+ #contactright a {
+    width: 100px;
+    text-align: center;
+ }
+
  input {
     font-size: 1rem;
     width: 100%;
+    align-self: center;
     border-radius: .5rem;
     background-color: #FDFDFD;
     border: solid #B45335;
@@ -369,6 +378,7 @@ footer ul {
 
  #note {
     height: 150px;
+    margin-bottom: .5rem;
  }
 
 
