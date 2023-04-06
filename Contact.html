@@ -10,20 +10,24 @@
     </style>
     <link rel="stylesheet" href="../CSS/Normal.css" type="text/css">
     <link rel="stylesheet" href="../CSS/Main.css" type="text/css">
+    <script src="js/main.js"></script>
 </head>
 
 <body>
     <header>
         <!-- icon here -->
         <img src="../Images/logo01.png">
-        <img src="../Images/hamburger.png">
-        <nav class="open"><!-- toggle this on and off when tapping hamburger icon -->
-            <img src="../Images/logo01.png">
+        <img onclick="toggleNavigation()" src="../Images/hamburger.png" id="menu">
+        <nav><!-- toggle this on and off when tapping hamburger icon -->
+            <img src="../Images/logo01.png" id="desklogo">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><div id="closeicon">
+                    <img src="../Images/closeicon.png" onclick="toggleNavigation()">
+                </div></li>
+                <li><a href="Index.html">Home</a></li>
                 <li><a href="#">Recipes</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
