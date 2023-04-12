@@ -284,7 +284,6 @@ footer ul {
 
 .aboutflex img {
     width: 100%;
-    height: fit-content;
     border-radius: .5rem;
     align-self: center;
 }
@@ -442,16 +441,7 @@ footer ul {
     }
 
     .aboutflex {
-        flex-direction: row;
-        padding: 4rem; 
-    }
-
-    .aboutflex img {
-        width: 50%;
-    }
-
-    .aboutflex div {
-        padding: 3rem;
+        padding: 3rem; 
     }
 
     #pagehead {
@@ -555,6 +545,15 @@ footer ul {
 
     .aboutflex img {
         width: 70%;
+    }
+
+    .aboutflex {
+        flex-direction: row;
+        padding: 4rem; 
+    }
+
+    .aboutflex div {
+        padding: 3rem;
     }
 
 
