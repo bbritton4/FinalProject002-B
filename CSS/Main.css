@@ -316,8 +316,8 @@ footer ul {
 --------------------------------------------------------- */
  .contact {
     display: flex;
-    padding: 0rem; 
-    margin: 5rem 3rem 4rem 3rem;
+    padding: 1rem; 
+    margin: 0rem;
     flex-direction: column;
     justify-self: center;
     box-shadow: 1px 1px 6px #E7E7E7;
@@ -381,6 +381,7 @@ footer ul {
  input {
     font-size: 1rem;
     width: 100%;
+    /* how can I fix the padding without using align*/
     align-self: center;
     border-radius: .5rem;
     background-color: #FDFDFD;
@@ -448,13 +449,6 @@ footer ul {
         margin-top: 40px;
     }
 
-    .contact {
-        flex-direction: row;
-    }
-
-    #contactleft {
-        width: 40%;
-    }
 
 }
 
@@ -556,6 +550,15 @@ footer ul {
         padding: 3rem;
     }
 
+    .contact {
+        flex-direction: row;
+        padding: 0rem; 
+        margin: 5rem 3rem 4rem 3rem;
+    }
+
+    #contactleft {
+        width: 40%;
+    }
 
 
 
