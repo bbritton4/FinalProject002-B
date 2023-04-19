@@ -450,8 +450,8 @@ footer ul {
     gap: 3rem;
     padding-top: .5rem;
     padding-bottom: .5rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     justify-content: center;
     max-height: auto;
 }
@@ -493,6 +493,7 @@ footer ul {
     font-family: 'Nunito', sans-serif;
     font-size: 1rem;
     padding: 1rem;
+    padding-left: 0;
     margin: 0;
 }
 
@@ -555,12 +556,21 @@ footer ul {
         padding: 3rem; 
     }
 
+    .contact {
+        margin: 4rem 6rem 8rem 6rem;
+    }
+
     #pagehead {
         margin-top: 40px;
     }
 
     #filterlist {
         flex-direction: row;
+    }
+
+    #recipegrid {
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 3rem;
     }
 
 
