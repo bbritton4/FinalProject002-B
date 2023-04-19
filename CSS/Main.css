@@ -452,6 +452,13 @@ footer ul {
     padding-bottom: .5rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    justify-content: center;
+    max-height: auto;
+}
+
+#recipecard img {
+    width: 100%;
+    height: auto;
 }
 
 #cardbottom {
@@ -459,7 +466,7 @@ footer ul {
 }
 
 #cardp {
-    color: #57483A;
+    color: #B45335;
     font-family: 'Nunito', sans-serif;
     font-size: 1rem;
     padding: 1rem;
@@ -472,6 +479,34 @@ footer ul {
     font-size: 1.5rem;
     padding: 1rem;
     margin: 0;
+}
+
+#cardfoot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+#easy {
+    color: #B45335;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 0;
+}
+
+#cardfoot a {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #B45335;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #FFF5F2;
+    font-family: 'Nunito', sans-serif;
+    justify-content: center;
 }
 
 
@@ -639,6 +674,10 @@ footer ul {
         width: 40%;
     }
 
+    #recipegrid {
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 2rem;
+    }
 
 
 }
