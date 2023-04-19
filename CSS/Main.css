@@ -456,12 +456,13 @@ footer ul {
     max-height: auto;
 }
 
-#recipecard img {
+.recipecard img {
     width: 100%;
     height: auto;
 }
 
-#cardbottom {
+
+.recipecard {
     background-color: #FFF5F2;
 }
 
@@ -507,7 +508,6 @@ footer ul {
     text-decoration: none;
     color: #FFF5F2;
     font-family: 'Nunito', sans-serif;
-    justify-content: center;
 }
 
 
@@ -570,7 +570,7 @@ footer ul {
 
     #recipegrid {
         grid-template-columns: repeat(3, 1fr); 
-        gap: 3rem;
+        gap: 2rem;
     }
 
 
@@ -686,7 +686,6 @@ footer ul {
 
     #recipegrid {
         grid-template-columns: repeat(4, 1fr); 
-        gap: 2rem;
     }
 
 
