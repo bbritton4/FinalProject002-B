@@ -445,6 +445,35 @@ footer ul {
 }
 
 
+#recipegrid {
+    display: grid;
+    gap: 3rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#cardbottom {
+    background-color: #FFF5F2;
+}
+
+#cardp {
+    color: #57483A;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 0;
+}
+
+#cardtitle {
+    color: #B45335;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 0;
+}
+
 
       
 
