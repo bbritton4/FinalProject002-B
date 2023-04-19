@@ -168,7 +168,7 @@ a:hover {
     gap: 1rem;
 }
 
-.previewCard {
+.previewcard {
     background: #FDFDFD;
     border-radius: 8px;
     max-height: auto;
@@ -176,13 +176,13 @@ a:hover {
     justify-content: center;
 }
 
-.previewCard img {
+.previewcard img {
     width: 100%;
     height: auto;
     border-radius: .5rem .5rem 0 0;
 }
 
-.previewCard p {
+.previewcard p {
     padding-left: 1rem;
     font-family: 'Nunito', sans-serif;
     color: #B45335;
@@ -443,6 +443,8 @@ footer ul {
 #filterbtn:hover {
     background-color: #FFF5F2;
 }
+
+
 
       
 
