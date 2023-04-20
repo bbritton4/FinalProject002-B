@@ -404,38 +404,8 @@ footer ul {
 ---------------------------------------------------------
 --------------------------------------------------------- */
 
-#label {
-    color: #B45335;
-    font-size: 1.5rem;
-    font-family: 'Nunito', sans-serif;
-}
-
-#filterlist {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    list-style: none;
-    margin: 0;
-    padding-left: 0;
-}
-
-#filterbtn {
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-right: 1rem;
-    background-color: #FDFDFD;
-    border-radius: 8px;
-    border: 2px solid #B45335;
-    text-decoration: none;
-    color: #B45335;
-    font-family: 'Nunito', sans-serif;
-    justify-content: left;
-}
-
-#filterbtn:hover {
-    background-color: #FFF5F2;
+#filter {
+    display: none;
 }
 
 
@@ -453,11 +423,13 @@ footer ul {
 .recipecard img {
     width: 100%;
     height: auto;
+    border-radius: .5rem .5rem 0 0;
 }
 
 
 .recipecard {
     background-color: #FFF5F2;
+    border-radius: .5rem;
 }
 
 #cardp {
@@ -471,20 +443,21 @@ footer ul {
 #cardtitle {
     color: #B45335;
     font-family: 'Nunito', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding: 1rem;
     margin: 0;
 }
 
-#cardfoot {
+.cardfoot {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem;
 }
 
 #easy {
-    color: #B45335;
+    color: #57FF08;
     font-family: 'Nunito', sans-serif;
     font-size: 1rem;
     padding: 1rem;
@@ -492,7 +465,25 @@ footer ul {
     margin: 0;
 }
 
-#cardfoot a {
+#moderate {
+    color: #FFD809;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+    padding-left: 0;
+    margin: 0;
+}
+
+#hard {
+    color: #FF0909;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+    padding-left: 0;
+    margin: 0;
+}
+
+.cardfoot a {
     padding-top: 2px;
     padding-bottom: 2px;
     padding-left: 8px;
@@ -502,6 +493,11 @@ footer ul {
     text-decoration: none;
     color: #FFF5F2;
     font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
+.cardfoot a:hover {
+    background-color: #8d412a;
 }
 
 
@@ -558,8 +554,55 @@ footer ul {
         margin-top: 40px;
     }
 
+    #filter {
+        display: contents;
+    }
+
+    #label {
+        color: #B45335;
+        font-size: 1.5rem;
+        font-family: 'Nunito', sans-serif;
+    }
+    
     #filterlist {
+        display: flex;
         flex-direction: row;
+        text-decoration: none;
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
+    }
+    
+    #filterbtn {
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-right: 1rem;
+        background-color: #FDFDFD;
+        border-radius: 8px;
+        text-decoration: none;
+        color: #B45335;
+        font-family: 'Nunito', sans-serif;
+        justify-content: left;
+    }
+
+    #filterselected {
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-right: 1rem;
+        background-color: #B45335;
+        border-radius: 8px;
+        text-decoration: none;
+        color: #FDFDFD;
+        font-family: 'Nunito', sans-serif;
+        justify-content: left;
+    }
+    
+    #filterbtn:hover {
+        box-shadow: 2px 4px 4px #E7E7E7;
     }
 
     #recipegrid {
