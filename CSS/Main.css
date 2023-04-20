@@ -40,13 +40,11 @@ nav {
     height: 100%;
     right: -50%;
     top: 0;
-    transition: all .25s ease;
 }
 
 
 nav.open {
     right: 0;
-    transition: all .25s ease;
 }
 
 nav ul {
@@ -375,6 +373,7 @@ footer ul {
 
  #contactright a {
     width: 100px;
+    align-self: center;
     text-align: center;
  }
 
