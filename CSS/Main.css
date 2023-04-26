@@ -436,7 +436,10 @@ footer ul {
     color: #B45335;
     font-family: 'Nunito', sans-serif;
     font-size: 1rem;
-    padding: 1rem;
+    padding-top: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
     margin: 0;
 }
 
@@ -494,6 +497,7 @@ footer ul {
     color: #FFF5F2;
     font-family: 'Nunito', sans-serif;
     margin: 0;
+    margin-right: .5rem;
 }
 
 .cardfoot a:hover {
@@ -652,6 +656,11 @@ footer ul {
     nav ul li a:hover {
         background: #B14A2A;
         border-radius: .5rem;
+    }
+
+    .navselected {
+        text-decoration: underline;
+        background: #B14A2A;
     }
 
 
