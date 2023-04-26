@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RecipeWebsite</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+    </style>
+    <link rel="stylesheet" href="../CSS/Normal.css" type="text/css">
+    <link rel="stylesheet" href="../CSS/Main.css" type="text/css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <!-- icon here -->
+        <img src="../Images/logo01.png">
+        <img onclick="toggleNavigation()" src="../Images/hamburger.png" id="menu">
+        <nav><!-- toggle this on and off when tapping hamburger icon -->
+            <img src="../Images/logo01.png" id="desklogo">
+            <ul>
+                <li><div id="closeicon">
+                    <img src="../Images/closeicon.png" onclick="toggleNavigation()">
+                </div></li>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Allrecipes.html" class="navselected">Recipes</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <p id="pagehead">Recipes</p>
+        </div>
+
+        <div class="container">
+            <div id="filter">
+                <p id="label">Filter:</p>
+                <ul id="filterlist">
+                    <li><a href="Allrecipes.html" id="filterbtn">All</a></li>
+                    <li><a href="Easyrecipes.html" id="filterbtn">Easy</a></li>
+                    <li><a href="Moderaterecipes.html" id="filterbtn">Moderate</a></li>
+                    <li><a href="Hardrecipes.html" id="filterselected">Hard</a></li>
+                </ul>
+            </div>
+            <section id="recipegrid">
+                <div class="recipecard">
+                    <img src="../Images/recipe_imgs/food03.png">           
+                       <p id="cardtitle">VANILLA-CARDAMOM KULFI WITH CITRUS ROSE SYRUP</p>
+                       <p id="cardp">Ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum, egestas.</p>
+                     <div class="cardfoot">
+                        <p id="hard">Hard</p>
+                        <a>See more</a>
+                     </div>
+                </div>
+
+                <div class="recipecard">
+                    <img src="../Images/recipe_imgs/food12.png">           
+                       <p id="cardtitle">SPICY PORK VINDALOO</p>
+                       <p id="cardp">Ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum, egestas.</p>
+                     <div class="cardfoot">
+                        <p id="hard">Hard</p>
+                        <a>See more</a>
+                     </div>
+                </div>
+
+                <div class="recipecard">
+                    <img src="../Images/recipe_imgs/food16.png">           
+                       <p id="cardtitle">CHILI- GARLIC BEEF WITH STIR FRY ZOODLES</p>
+                       <p id="cardp">Ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum, egestas.</p>
+                     <div class="cardfoot">
+                        <p id="hard">Hard</p>
+                        <a>See more</a>
+                     </div>
+                </div>
+
+                <div class="recipecard">
+                    <img src="../Images/recipe_imgs/food21.png">           
+                       <p id="cardtitle">LEMONGRASS CHICKEN DUMPLINGS</p>
+                       <p id="cardp">Ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum, egestas.</p>
+                     <div class="cardfoot">
+                        <p id="hard">Hard</p>
+                        <a>See more</a>
+                     </div>
+                </div>
+
+                <div class="recipecard">
+                    <img src="../Images/recipe_imgs/food22.png">           
+                       <p id="cardtitle">GREEK STYLE LAMB MEATBALLS WITH GARLIC YOGURT & MINT CHIMICHURRI SAUCE</p>
+                       <p id="cardp">Ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum, egestas.</p>
+                     <div class="cardfoot">
+                        <p id="hard">Hard</p>
+                        <a>See more</a>
+                     </div>
+                </div>
+ 
+    </main>
+
+    <footer>
+        <div class="container">
+            <Ul>
+                <li><img src="../Images/social01.png"></li>
+                <li><img src="../Images/social02.png"></li>
+                <li><img src="../Images/social03.png"></li>
+            </Ul>    
+            <p id="copywrite">@ 2023 Worldfamouschef</p>    
+        </div>
+    </footer>
+    
+</body>
+</html>
