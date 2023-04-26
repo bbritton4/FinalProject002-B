@@ -430,6 +430,8 @@ footer ul {
 .recipecard {
     background-color: #FFF5F2;
     border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
 }
 
 #cardp {
@@ -441,6 +443,7 @@ footer ul {
     padding-right: 1rem;
     padding-bottom: 1rem;
     margin: 0;
+    flex-grow: 1;
 }
 
 #cardtitle {
