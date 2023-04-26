@@ -25,7 +25,7 @@
                     <img src="../Images/closeicon.png" onclick="toggleNavigation()">
                 </div></li>
                 <li><a href="Index.html">Home</a></li>
-                <li><a href="#">Recipes</a></li>
+                <li><a href="Allrecipes.html" class="navselected">Recipes</a></li>
                 <li><a href="About.html">About</a></li>
                 <li><a href="Contact.html">Contact</a></li>
             </ul>
@@ -41,10 +41,10 @@
             <div id="filter">
                 <p id="label">Filter:</p>
                 <ul id="filterlist">
-                    <li><a href="#" id="filterselected">All</a></li>
-                    <li><a href="#" id="filterbtn">Easy</a></li>
-                    <li><a href="#" id="filterbtn">Moderate</a></li>
-                    <li><a href="#" id="filterbtn">Hard</a></li>
+                    <li><a href="Allrecipes.html" id="filterselected">All</a></li>
+                    <li><a href="Easyrecipes.html" id="filterbtn">Easy</a></li>
+                    <li><a href="Moderaterecipes.html" id="filterbtn">Moderate</a></li>
+                    <li><a href="Hardrecipes.html" id="filterbtn">Hard</a></li>
                 </ul>
             </div>
             <section id="recipegrid">
@@ -73,7 +73,7 @@
                        <p id="cardtitle">VANILLA-CARDAMOM KULFI WITH CITRUS ROSE SYRUP</p>
                        <p id="cardp">Ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum, egestas.</p>
                      <div class="cardfoot">
-                        <p id="easy">Easy</p>
+                        <p id="hard">Hard</p>
                         <a>See more</a>
                      </div>
                 </div>
@@ -93,7 +93,7 @@
                        <p id="cardtitle">ROGAN JOSH</p>
                        <p id="cardp">Ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum, egestas.</p>
                      <div class="cardfoot">
-                        <p id="easy">Easy</p>
+                        <p id="moderate">Moderate</p>
                         <a>See more</a>
                      </div>
                 </div>
@@ -113,7 +113,7 @@
                        <p id="cardtitle">GRILLED CHICKEN WITH FRESH CHERRY SALSA</p>
                        <p id="cardp">Ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum, egestas.</p>
                      <div class="cardfoot">
-                        <p id="easy">Easy</p>
+                        <p id="moderate">Moderate</p>
                         <a>See more</a>
                      </div>
                 </div>
@@ -133,7 +133,7 @@
                        <p id="cardtitle">INDIAN STYLE CHICKEN CUTLETS</p>
                        <p id="cardp">Ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum, egestas.</p>
                      <div class="cardfoot">
-                        <p id="easy">Easy</p>
+                        <p id="moderate">Moderate</p>
                         <a>See more</a>
                      </div>
                 </div>
@@ -163,7 +163,7 @@
                        <p id="cardtitle">SPICY PORK VINDALOO</p>
                        <p id="cardp">Ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum, egestas.</p>
                      <div class="cardfoot">
-                        <p id="easy">Easy</p>
+                        <p id="hard">Hard</p>
                         <a>See more</a>
                      </div>
                 </div>
@@ -173,7 +173,7 @@
                        <p id="cardtitle">SWEET & SOUR SALMON IN FOIL PACKETS</p>
                        <p id="cardp">Ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum, egestas.</p>
                      <div class="cardfoot">
-                        <p id="easy">Easy</p>
+                        <p id="moderate">Moderate</p>
                         <a>See more</a>
                      </div>
                 </div>
@@ -183,7 +183,7 @@
                        <p id="cardtitle">INDIAN STYLE LENTILS (DAL TADKA)</p>
                        <p id="cardp">Ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum, egestas.</p>
                      <div class="cardfoot">
-                        <p id="easy">Easy</p>
+                        <p id="moderate">Moderate</p>
                         <a>See more</a>
                      </div>
                 </div>
@@ -203,7 +203,7 @@
                        <p id="cardtitle">CHILI- GARLIC BEEF WITH STIR FRY ZOODLES</p>
                        <p id="cardp">Ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum, egestas.</p>
                      <div class="cardfoot">
-                        <p id="easy">Easy</p>
+                        <p id="hard">Hard</p>
                         <a>See more</a>
                      </div>
                 </div>
@@ -213,7 +213,7 @@
                        <p id="cardtitle">BLACK-PEPPER SOY CHICKEN WINGS</p>
                        <p id="cardp">Ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum, egestas.</p>
                      <div class="cardfoot">
-                        <p id="easy">Easy</p>
+                        <p id="moderate">Moderate</p>
                         <a>See more</a>
                      </div>
                 </div>
@@ -233,7 +233,7 @@
                        <p id="cardtitle">STICKY TAMARIND CHICKEN</p>
                        <p id="cardp">Ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum, egestas.</p>
                      <div class="cardfoot">
-                        <p id="easy">Easy</p>
+                        <p id="moderate">Moderate</p>
                         <a>See more</a>
                      </div>
                 </div>
@@ -253,7 +253,7 @@
                        <p id="cardtitle">LEMONGRASS CHICKEN DUMPLINGS</p>
                        <p id="cardp">Ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum, egestas.</p>
                      <div class="cardfoot">
-                        <p id="easy">Easy</p>
+                        <p id="hard">Hard</p>
                         <a>See more</a>
                      </div>
                 </div>
@@ -263,7 +263,7 @@
                        <p id="cardtitle">GREEK STYLE LAMB MEATBALLS WITH GARLIC YOGURT & MINT CHIMICHURRI SAUCE</p>
                        <p id="cardp">Ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum, egestas.</p>
                      <div class="cardfoot">
-                        <p id="easy">Easy</p>
+                        <p id="hard">Hard</p>
                         <a>See more</a>
                      </div>
                 </div>
